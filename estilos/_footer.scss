@@ -1,0 +1,23 @@
+/*Footer*/
+
+#footer {
+    height: 10%;
+    background-image: linear-gradient(pink, lightgreen);
+    padding: 1.6rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #footer {
+        font-size: 8px;
+        text-align: center;
+        color: white;
+    }
+}
