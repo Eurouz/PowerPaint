@@ -13,7 +13,7 @@
           clip-path: circle();
   -webkit-transition-duration: 2seg;
           transition-duration: 2seg;
-  width: 110px;
+  width: 80px;
 }
 
 .nav-color {
@@ -165,7 +165,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 500px;
+  margin-left: 480px;
   margin-bottom: 50px;
 }
 
