@@ -83,7 +83,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .carrusel .carrusel__img {
-    height: 40vh;
+    height: 30vh;
   }
 }
 

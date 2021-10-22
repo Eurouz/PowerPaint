@@ -16,6 +16,7 @@ body {
         height: 60vh;
     }
 
+  
     &__titulo {
         color: red;
         font-style: italic;
@@ -55,7 +56,7 @@ body {
 
     @media only screen and (max-width: 768px) {
         .carrusel__img {
-            height: 40vh;
+            height: 30vh;
         }
     }
 
