@@ -165,7 +165,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 530px;
+  margin-left: 500px;
   margin-bottom: 50px;
 }
 
@@ -328,7 +328,7 @@ body {
 /*Cuerpo*/
 /*Principal*/
 .prin {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
@@ -391,14 +391,9 @@ body {
   }
 }
 
-.prin2 {
-  background-color: #c5f1c5;
-  padding: 3%;
-}
-
 /*Nosotros*/
 .nos {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
@@ -439,7 +434,7 @@ body {
 
 /*Que hacemos*/
 .hacemos {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
@@ -480,7 +475,7 @@ body {
 
 /*Galeria*/
 .galeria {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
@@ -522,7 +517,7 @@ body {
 
 /*Novedades*/
 .nov {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
@@ -573,12 +568,12 @@ body {
 
 /*Contacto*/
 .cont {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
 .galeria {
-  background-color: #f7f7f7;
+  background-color: #fcfcfc;
   padding: 3%;
 }
 
