@@ -17,8 +17,7 @@
 }
 
 .nav-color {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(pink), to(lightgreen));
-  background-image: linear-gradient(pink, lightgreen);
+  background-color: #07bd07;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -326,6 +325,12 @@ body {
 
 /*Mixin*/
 /*Cuerpo*/
+.box {
+  width: 400px;
+  height: 600px;
+  margin: 10px;
+}
+
 /*Principal*/
 .prin {
   background-color: #fcfcfc;
@@ -629,8 +634,7 @@ body {
 /*Footer*/
 #footer {
   height: 10%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(pink), to(lightgreen));
-  background-image: linear-gradient(pink, lightgreen);
+  background-color: #07bd07;
   padding: 1.6rem;
   font-style: italic;
   font-weight: bold;

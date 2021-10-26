@@ -1,5 +1,12 @@
 /*Cuerpo*/
 
+.box {
+width: 400px;
+height: 600px;
+margin: 10px;
+
+}
+
 /*Principal*/
 
 .prin {
@@ -15,7 +22,7 @@
 
     &__desc__titulo {
         @include titulo;
-
+        
     }
 
     &__desc__parrafo {
