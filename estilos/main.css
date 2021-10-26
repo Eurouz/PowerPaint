@@ -115,6 +115,7 @@ body {
     width: 150px;
     height: 100px;
     margin: auto;
+    margin-top: 25px;
   }
 }
 
@@ -146,6 +147,8 @@ body {
     width: 150px;
     height: 100px;
     margin: auto;
+    margin-bottom: 5%;
+    margin-top: 50px;
   }
 }
 
@@ -212,6 +215,7 @@ body {
     width: 150px;
     height: 100px;
     margin: auto;
+    margin-top: 55px;
   }
 }
 
@@ -243,7 +247,7 @@ body {
     width: 150px;
     height: 100px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -337,6 +341,15 @@ body {
   width: 400px;
   height: 600px;
   margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
 }
 
 /*Principal*/
@@ -604,14 +617,15 @@ body {
   #grilla1 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     gap: 1em;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 10%;
   }
 }
 
@@ -629,13 +643,14 @@ body {
   #grilla2 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 10%;
   }
 }
 

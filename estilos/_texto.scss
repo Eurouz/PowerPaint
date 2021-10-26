@@ -7,6 +7,16 @@ margin: 10px;
 
 }
 
+@media only screen and (max-width: 768px) {
+    .box {
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 5%;
+    }
+}
+
+
 /*Principal*/
 
 .prin {
@@ -213,13 +223,17 @@ margin: 10px;
 
     #grilla1 {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 1em;
         align-items: center;
+        margin-bottom: 10%;
+        
     }
 
 }
+
+
 
 #grilla2 {
     display: grid;
@@ -234,9 +248,11 @@ margin: 10px;
 
     #grilla2 {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
         align-items: center;
+        margin-bottom: 10%;
+              
     }
 
 }
