@@ -252,6 +252,8 @@ body {
   height: 270px;
   border-radius: 15%;
   margin: 20px;
+  -webkit-box-shadow: 0 8px 32px grey;
+          box-shadow: 0 8px 32px grey;
 }
 
 @media only screen and (max-width: 768px) {
@@ -271,6 +273,8 @@ body {
   height: 270px;
   border-radius: 15%;
   margin-top: 5%;
+  -webkit-box-shadow: 0 8px 32px grey;
+          box-shadow: 0 8px 32px grey;
 }
 
 @media only screen and (max-width: 768px) {
@@ -290,6 +294,8 @@ body {
   height: 270px;
   border-radius: 15%;
   margin: 20px;
+  -webkit-box-shadow: 0 8px 32px grey;
+          box-shadow: 0 8px 32px grey;
 }
 
 @media only screen and (max-width: 768px) {
@@ -309,6 +315,8 @@ body {
   height: 270px;
   border-radius: 15%;
   margin-top: 5%;
+  -webkit-box-shadow: 0 8px 32px grey;
+          box-shadow: 0 8px 32px grey;
 }
 
 @media only screen and (max-width: 768px) {
@@ -398,7 +406,7 @@ body {
 
 /*Nosotros*/
 .nos {
-  background-color: #fcfcfc;
+  background-color: #e3f3e3;
   padding: 3%;
 }
 
