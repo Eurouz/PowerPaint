@@ -8,25 +8,34 @@
   margin-bottom: 2px;
 }
 
-#logo:hover {
-  -webkit-clip-path: circle();
-          clip-path: circle();
-  -webkit-transition-duration: 2seg;
-          transition-duration: 2seg;
-  width: 80px;
-}
-
 .nav-color {
   background-color: #07bd07;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: red;
-  background: grey;
+  background: #cfcfcf;
   border-radius: 15%;
   font-style: italic;
   font-weight: bold;
   font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+h1 {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 15px;
+    margin-left: 20px;
+  }
 }
 
 * {
@@ -82,7 +91,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .carrusel .carrusel__img {
-    height: 30vh;
+    height: 40vh;
   }
 }
 
@@ -337,15 +346,30 @@ body {
 
 /*Mixin*/
 /*Cuerpo*/
-.box {
+.box_index {
   width: 400px;
   height: 600px;
   margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {
-  .box {
+  .box_index {
     width: 300px;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+}
+
+.box_nos {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_nos {
+    width: 150px;
     height: 220px;
     margin: auto;
     margin-bottom: 5%;
