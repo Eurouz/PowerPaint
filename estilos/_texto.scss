@@ -1,18 +1,18 @@
 /*Cuerpo*/
 
 .box_index {
-width: 400px;
-height: 600px;
-margin: 10px;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
 
 }
 
 @media only screen and (max-width: 768px) {
     .box_index {
-    width: 300px;
-    height: 220px;
-    margin: auto;
-    margin-bottom: 5%;
+        width: 300px;
+        height: 220px;
+        margin: auto;
+        margin-bottom: 5%;
     }
 }
 
@@ -20,17 +20,17 @@ margin: 10px;
     width: 300px;
     height: 400px;
     margin: 10px;
-    
-    }
-    
-    @media only screen and (max-width: 768px) {
-        .box_nos {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .box_nos {
         width: 150px;
         height: 220px;
         margin: auto;
         margin-bottom: 5%;
-        }
     }
+}
 
 
 /*Principal*/
@@ -48,7 +48,7 @@ margin: 10px;
 
     &__desc__titulo {
         @include titulo;
-        
+
     }
 
     &__desc__parrafo {
@@ -56,9 +56,16 @@ margin: 10px;
     }
 
     &__desc__titulo-opcional {
-      @include texto;  
+        @include texto;
     }
 
+    &_clas_titulo {
+        @include clas_titulo
+    }
+
+    &_clas_parrafo {
+        @include clas_parrafo
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,6 +89,21 @@ margin: 10px;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .prin_clas_titulo {
+        font-size: 10px;
+        margin: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .prin_clas_parrafo {
+        font-size: 10px;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+}
 
 /*Nosotros*/
 
@@ -123,7 +145,7 @@ margin: 10px;
     }
 
     &__desc__parrafo {
-       @include parrafo;
+        @include parrafo;
     }
 }
 
@@ -152,7 +174,7 @@ margin: 10px;
     }
 
     &__subTitulo {
-       @include texto;
+        @include texto;
     }
 }
 
@@ -184,7 +206,7 @@ margin: 10px;
     }
 
     &__art__titulo {
-     @include titulo;
+        @include titulo;
     }
 
     &__art__list {
@@ -244,7 +266,7 @@ margin: 10px;
         gap: 1em;
         align-items: center;
         margin-bottom: 10%;
-        
+
     }
 
 }
@@ -264,11 +286,11 @@ margin: 10px;
 
     #grilla2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         align-items: center;
         margin-bottom: 10%;
-              
+
     }
 
 }

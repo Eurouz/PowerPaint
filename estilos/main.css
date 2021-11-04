@@ -14,7 +14,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: red;
-  background: #cfcfcf;
+  background: #e6e6e6;
   border-radius: 15%;
   font-style: italic;
   font-weight: bold;
@@ -24,7 +24,7 @@
 }
 
 h1 {
-  color: red;
+  color: white;
   font-style: italic;
   font-weight: bold;
   margin: 10px;
@@ -468,6 +468,33 @@ body {
   text-align: center;
 }
 
+.prin_clas_titulo {
+  background-color: #00b800;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 2;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  border-radius: 5%;
+}
+
+.prin_clas_parrafo {
+  background-color: #f1f1f1;
+  color: black;
+  -webkit-box-shadow: 5px 5px grey;
+          box-shadow: 5px 5px grey;
+  font-style: italic;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  margin: 30px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+}
+
 @media only screen and (max-width: 768px) {
   .prin__desc__titulo {
     font-size: 10px;
@@ -486,6 +513,21 @@ body {
   .prin__desc__titulo-opcional {
     font-size: 10px;
     margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .prin_clas_titulo {
+    font-size: 10px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .prin_clas_parrafo {
+    font-size: 10px;
+    margin: 0px;
+    margin-bottom: 5px;
   }
 }
 
