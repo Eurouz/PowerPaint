@@ -84,6 +84,28 @@
 
 }
 
+#nos_img2 {
+    display: flex;
+    width: 300px;
+    height: 220px;
+    border-radius: 35%;
+    border-style: solid;
+    border-color: darkgreen;
+    margin: auto;
+   
+}
+@media only screen and (max-width: 768px) {
+    #nos_img2 {
+        display: flex;
+        width: 150px;
+        height: 100px;
+        margin-top: auto;
+        margin: auto;
+    }
+
+}
+
+
 #hacemos__img__are10 {
     display: flex;
     width: 300px;
@@ -224,9 +246,9 @@
     display: flex;
     width: 300px;
     height: 220px;
-    border-radius: 15%;
+    border-radius: 35%;
     border-style: solid;
-    border-color: black;
+    border-color:darkgreen;
     margin: auto;
    
 }
@@ -243,23 +265,3 @@
 }
 
 
-#nos_img2 {
-    display: flex;
-    width: 300px;
-    height: 220px;
-    border-radius: 15%;
-    border-style: solid;
-    border-color: black;
-    margin: auto;
-   
-}
-@media only screen and (max-width: 768px) {
-    #nos_img2 {
-        display: flex;
-        width: 150px;
-        height: 100px;
-        margin-top: auto;
-        margin: auto;
-    }
-
-}
