@@ -14,23 +14,23 @@
 
 @mixin parrafo {
     color: black;
-        font-style: italic;
-        margin-bottom: 14px;
-        line-height: 1.5;
-        margin: 30px;
-        font-size: 16px;
-        text-align: center;
+    font-style: italic;
+    margin-bottom: 14px;
+    line-height: 1.5;
+    margin: 30px;
+    font-size: 16px;
+    text-align: center;
 }
 
 @mixin texto {
     color: green;
-        font-style: italic;
-        font-weight: bold;
-        font-family: sans-serif;
-        line-height: 1.5;
-        margin: 30px;
-        font-size: 24px;
-        text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 30px;
+    font-size: 24px;
+    text-align: center;
 }
 
 
@@ -59,4 +59,3 @@
     text-align: center;
     margin: 0px;
 }
-

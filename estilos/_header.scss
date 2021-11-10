@@ -10,8 +10,6 @@
 
 }
 
-
-
 .nav-color {
     background-color: rgb(7, 189, 7);
 }
@@ -37,9 +35,16 @@ h1 {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     h1 {
         font-size: 15px;
-        margin-left: 20px;
+        margin-left: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 15px;
+        margin-left: 16px;
     }
 }
