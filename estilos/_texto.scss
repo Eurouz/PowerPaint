@@ -23,7 +23,16 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .box_nos {
+        width: 150px;
+        height: 320px;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .box_nos {
         width: 150px;
         height: 220px;
@@ -68,28 +77,58 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .prin__desc__titulo {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .prin__desc__titulo {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .prin__desc__parrafo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .prin__desc__parrafo {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 800px) {
+    .prin__desc__titulo-opcional {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .prin__desc__titulo-opcional {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .prin_clas_titulo {
+        font-size: 12px;
+        margin: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .prin_clas_titulo {
         font-size: 10px;
         margin: 0px;
@@ -97,13 +136,22 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .prin_clas_parrafo {
+        font-size: 12px;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .prin_clas_parrafo {
         font-size: 10px;
         margin: 0px;
         margin-bottom: 5px;
     }
 }
+
 
 /*Nosotros*/
 
@@ -120,14 +168,28 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .nos__titulo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .nos__titulo {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .nos__parrafo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .nos__parrafo {
         font-size: 10px;
         margin: 10px;
@@ -149,14 +211,28 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .hacemos__desc__titulo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .hacemos__desc__titulo {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .hacemos__desc__parrafo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .hacemos__desc__parrafo {
         font-size: 10px;
         margin: 10px;
@@ -178,20 +254,33 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .galeria__titulo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .galeria__titulo {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .galeria__subTitulo {
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .galeria__subTitulo {
         font-size: 10px;
         margin: 10px;
     }
 }
-
 
 /*Novedades*/
 
@@ -220,14 +309,28 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .nov__art__titulo {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .nov__art__titulo {
         font-size: 10px;
         margin: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .nov__art__list {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .nov__art__list {
         font-size: 10px;
         margin: 10px;
@@ -261,8 +364,8 @@
 
     #grilla1 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         gap: 1em;
         align-items: center;
         margin-bottom: 10%;
@@ -286,8 +389,8 @@
 
     #grilla2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         margin-bottom: 10%;
 
