@@ -14,16 +14,29 @@
     background-image: radial-gradient(darkgreen, rgb(35, 180, 35) );
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-
-    color: red;
-    background: rgb(230, 230, 230);
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
     border-radius: 15%;
     font-style: italic;
     font-weight: bold;
     font-family: sans-serif;
-    line-height: 1.5;
-    font-size: 20px;
+    line-height: 1; 
+    font-size: 16px;
+   
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-light .navbar-nav .nav-link.active {
+        font-size: 14px;
+      
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-light .navbar-nav .nav-link.active {
+        font-size: 10px;
+      
+    }
 }
 
 h1 {
